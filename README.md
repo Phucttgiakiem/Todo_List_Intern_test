@@ -1,8 +1,69 @@
-# React + Vite
+# To-Do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple To-Do List application built with React, Vite, and Ant Design.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://todo-list-intern-test.pages.dev/
+
+## Technologies
+
+- React 18
+- Vite
+- React Router DOM
+- Ant Design
+
+## Requirements
+
+- Node.js >= 18
+- npm
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Phucttgiakiem/Todo_List_Intern_test.git
+```
+
+Go to the project folder:
+
+```bash
+cd Todo_List_Intern_test
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser at:
+
+```
+http://localhost:5173
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Features
+
+- Create a new task
+- Edit a task
+- Delete a task
+- Mark task as Completed/Pending
+- Search by job title
+- Filter by status
+- Sort by Created At and Updated At
+- Pagination
+- LocalStorage persistence
