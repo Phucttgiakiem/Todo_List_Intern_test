@@ -263,7 +263,13 @@ const Homepage = () => {
                             size="large"
                             className="search-input"
                             value={searchValue}
-                            onChange={(e) => setSearchValue(e.target.value)}
+                            onChange={(e) => { 
+                                setSearchValue(e.target.value);
+                                setJoblist(prev => ({
+                                    ...prev,
+                                    page: 1,
+                                }));
+                            }}
                         />
                         <SearchOutlined className="search-icon" />
                     </div>
